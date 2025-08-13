@@ -1,0 +1,64 @@
+body {
+    margin-left: 20%;
+    margin-right:20%;
+    font-family: sans-serif;
+    background-color: snow;
+}
+li {
+    display: inline-block;
+    height:30px;
+    width:150px;
+    background-color: #A2B202;
+    text-align: center;
+    padding: 15px;
+}
+li:hover {
+    background-color: #B2C2A2;
+}
+a {
+    color:darkgreen;
+}
+footer {
+    background-color: #AAAAAA;
+    padding: 25px;
+}
+
+
+.persoonlijke_gegevens {
+    background : grey;
+    color:black;
+}
+.opleiding {
+    background : lightgrey;
+    color:black;
+}
+.werkervaring {
+    background : snow;
+    color:black;
+}
+th {
+    background-color: orange;
+}
+td {
+    padding: 10px 10px 10px 75px;
+}
+
+label, input[type="text"], input[type="submit"], input[type="email"], textarea {
+    display: block;
+    padding: 15px;
+    width: 300px; 
+    box-sizing: border-box;
+}
+
+input[type="submit"]:active {
+    background-color: #A2B202;
+    color: darkgreen;
+}
+
+textarea {
+    height: 150px;
+}
+
+header,body,footer {
+    padding: 5px;
+}
